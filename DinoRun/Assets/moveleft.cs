@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class moveleft : MonoBehaviour
 {
-    public float speed = 1f; //움직이는 속도 지정
+    public float speed = 2.5f; //움직이는 속도 지정
     void Update()
     {
         transform.Translate(Vector3.left * speed * Time.deltaTime);
